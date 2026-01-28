@@ -6,7 +6,6 @@ pipeline {
     }
     
     environment {
-        // Use single quotes for the credential ID
         DOCKERHUB_CRED = credentials('dockerhub') 
         IMAGE_NAME = 'vivek5041/web-app'
     }
